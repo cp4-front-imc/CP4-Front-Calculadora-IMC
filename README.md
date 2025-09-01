@@ -9,7 +9,7 @@
 ##  Sobre o Projeto
 
 Este projeto foi desenvolvido como atividade acadêmica na FIAP.  
-O objetivo principal era **estilizar interface de um projeto construído em sala de aula**, aplicando cores, fontes e elementos visuais para melhorar a experiência do usuário.
+O objetivo principal é **estilizar interface de um projeto construído em sala de aula**, aplicando cores, fontes e elementos visuais para melhorar a experiência do usuário.
 
 Trata-se de uma **Calculadora de IMC (Índice de Massa Corporal)**, que permite:  
 
