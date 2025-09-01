@@ -86,4 +86,13 @@ button:hover {
     0 0 0 1px rgba(255,255,255,0.25) inset;
 }
 
+button:active { transform: translateY(1px); }
+button:focus { outline: none; box-shadow: 0 0 0 6px rgba(242,178,99,0.24); }
 
+/*RESULTADO*/
+.results-area { margin-top: 24px; }
+
+@media (max-width: 1024px) {
+  .box { padding: 16px; }
+  input, button { font-size: 0.98rem; }
+}
