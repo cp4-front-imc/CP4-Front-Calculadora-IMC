@@ -30,9 +30,10 @@ Trata-se de uma **Calculadora de IMC (Índice de Massa Corporal)**, que permite:
 
 ---
 ## Link Repositório
-
+https://github.com/cp4-front-imc/CP4-Front-Calculadora-IMC
 
 ---
-
+## Link do Deploy no Vercel
+https://calculadoraimc-tan.vercel.app/
 ## Link do Deploy no Vercel
 http://localhost:5174/
