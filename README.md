@@ -1,6 +1,6 @@
 # Calculadora IMC - Projeto Acadêmico Fiap
 
-**Aluna:** Anna Clara Ruggeri Da Silva - RM565553 
+**Aluna:** Anna Clara Ruggeri Da Silva - RM565553   
 **Professor Orientador:** Wellington Cidade Silva Tenorio  
 **Instituição:** FIAP  
 
