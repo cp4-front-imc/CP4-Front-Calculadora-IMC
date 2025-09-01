@@ -1,0 +1,69 @@
+/* RESULTADO-TABELA*/
+.tabela {
+  margin: 18px auto;
+  padding: 18px;
+  background: #FFFFFF;
+  border: 1px solid #EBD9D4;
+  border-radius: 18px;
+  box-shadow: 0 16px 36px rgba(0,0,0,0.08);
+  max-width: 820px;
+  width: 96%;
+  text-align: center;
+  color: #2b2b2b;
+}
+
+.tabela h2 {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+  letter-spacing: 0.2px;
+}
+
+/* IMC*/
+.imcSpan, .ImcSpan {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #F28585;
+  background: #FCEEEF;
+  border: 1px solid #F2C6C2;
+  box-shadow: 0 6px 16px rgba(242,134,134,0.16);
+}
+
+/* TABELA */
+.tabela table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 14px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.tabelaHeader th {
+  background: #86A59D;
+  color: #ffffff;
+  padding: 12px;
+  font-weight: 800;
+  font-size: 0.98rem;
+  border-right: 1px solid rgba(255,255,255,0.24);
+}
+.tabelaHeader th:last-child { border-right: none; }
+
+.tabelaBody td {
+  border: 1px solid #EBD9D4;
+  padding: 12px;
+  font-size: 1rem;
+  color: #374151;
+  background: #FFFFFF;
+}
+
+.tabelaBody tr:nth-child(even) td { background: #F7F1EB; }
+.tabelaBody tr:hover td { background: #FFF8F1; }           
+
+@media (max-width: 1024px) {
+  .tabela h2 { font-size: 1.45rem; }
+  .tabela table, .tabela th, .tabela td { font-size: 0.96rem; padding: 10px; }
+}

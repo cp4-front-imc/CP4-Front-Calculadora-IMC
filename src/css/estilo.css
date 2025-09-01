@@ -1,0 +1,98 @@
+/* CARD*/
+.box {
+  width: 820px;
+  max-width: 96vw;
+  background: linear-gradient(180deg, #FFFFFF 0%, #FFF6F4 100%);
+  border: 1px solid #EBD9D4;
+  border-radius: 20px;
+  padding: 20px; /* o header já tem padding próprio */
+  box-shadow:
+    0 26px 54px rgba(0,0,0,0.12),
+    0 0 0 1px rgba(255,255,255,0.6) inset;
+  position: relative;
+}
+
+/* LINHA DE CIMA*/
+.box::before {
+  content: "";
+  position: absolute;
+  top: -7px; left: 20px; right: 20px;
+  height: 10px; border-radius: 10px;
+  background: #86A59D;
+  box-shadow: 0 10px 24px rgba(134,165,157,0.35);
+}
+
+/* FORM */
+form { display: grid; gap: 16px; margin-top: 6px; }
+
+label {
+  display: block;
+  font-weight: 700;
+  color: #2b2b2b;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+label span {
+  font-weight: 400;
+  color: #6f7680;
+  margin-left: 4px;
+}
+
+
+input {
+  width: 100%;
+  height: 52px;
+  padding: 0 16px;
+  font-size: 1rem;
+  color: #2b2b2b;
+  background: #FFFFFF;
+  border: 1px solid #E3E6EA;
+  border-radius: 14px;
+  outline: none;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.06s;
+}
+
+input::placeholder { color: #98A1AD; }
+
+input:focus {
+  border-color: #86A59D;
+  box-shadow: 0 0 0 6px rgba(134,165,157,0.22), 0 1px 0 rgba(255,255,255,0.8) inset;
+}
+
+/* BOTÃO */
+button {
+  width: 100%;
+  height: 52px;
+  padding: 0 20px;
+  font-weight: 900;
+  font-size: 1rem;
+  color: #ffffff;
+  background: linear-gradient(90deg, #F2B263 0%, #F28585 100%);
+  border: 1px solid #EADAD4;
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow:
+    0 16px 34px rgba(242,178,99,0.32),
+    0 0 0 1px rgba(255,255,255,0.2) inset;
+  transition: transform 0.08s, filter 0.18s, box-shadow 0.18s;
+}
+
+button:hover {
+  filter: brightness(1.06);
+  box-shadow:
+    0 20px 40px rgba(242,133,133,0.36),
+    0 0 0 1px rgba(255,255,255,0.25) inset;
+}
+
+button:active { transform: translateY(1px); }
+button:focus { outline: none; box-shadow: 0 0 0 6px rgba(242,178,99,0.24); }
+
+/*RESULTADO*/
+.results-area { margin-top: 24px; }
+
+@media (max-width: 1024px) {
+  .box { padding: 16px; }
+  input, button { font-size: 0.98rem; }
+}

@@ -1,0 +1,31 @@
+/* BANNER */
+.header {
+  width: 100%;
+  background: linear-gradient(90deg, #F2B263 0%, #F28585 100%);
+  border: 1px solid #EADAD4;
+  border-radius: 18px;
+  padding: 18px 20px;
+  text-align: center;
+  color: #ffffff;
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.35) inset,
+    0 16px 36px rgba(242,133,133,0.28);
+  margin: 0 0 16px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/*BRILHO*/
+.header::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,0.35), transparent 55%);
+  pointer-events: none;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 0.6px;
+}
