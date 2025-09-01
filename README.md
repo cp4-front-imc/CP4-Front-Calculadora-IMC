@@ -25,8 +25,7 @@ Trata-se de uma **Calculadora de IMC (Índice de Massa Corporal)**, que permite:
 
 - **React.js** – Biblioteca para construção do frontend.  
 - **CSS3** – Para estilização do layout, formulários e tabelas.  
-- **SweetAlert2** – Para alertas estilizados e modernos.  
-- **Google Fonts** – Fontes “Luckiest Guy” (título) e “Poppins” (texto).
+- **SweetAlert2** – Para alertas estilizados e modernos.
 
 ---
 ## Link Repositório
